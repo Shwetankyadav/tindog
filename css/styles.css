@@ -26,15 +26,14 @@ p {
 .container-fluid {
   padding: 7% 15%;
 }
-
 /* section color */
 
-.coloured-seaction{
+.coloured-section{
   background-color: #ff4c68;
   color: white;
 }
 
-.white-seaction{
+.white-section{
   background-color: #fff;
 }
 /* Navigation bar*/
@@ -68,7 +67,7 @@ p {
 #title .container-fluid {
   padding: 3% 15% 7%;
 }
-.title-seaction{
+.title-section{
   text-align: left;
 }
 
@@ -167,13 +166,15 @@ p {
 /*media query*/
 
 @media (max-width : 1028px){
-!important
-  .title-seaction{
+  .title-section{
     text-align: center;
   }
 
   .title-image{
     position: static;
     transform: rotate(0);
+  }
+  #footer{
+    font-size: 150%;
   }
 }
