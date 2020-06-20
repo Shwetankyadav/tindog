@@ -53,7 +53,7 @@ p {
 
 .nav-link {
   font-family: "Montserrat";
-  font-weight: lighter;
+  font-weight: 600;
   font-size: 1.2rem;
 }
 
@@ -66,13 +66,15 @@ p {
 
 #title .container-fluid {
   padding: 3% 15% 7%;
-    text-align: left;
+}
+.title-seaction{
+  text-align: left;
 }
 
 .title-image {
   width: 60%;
   transform: rotate(25deg);
-  /* position: absolute; */
+  position: absolute;
   right: 30%
 }
 
@@ -90,7 +92,7 @@ p {
 }
 
 #features {
-  /* position: relative; */
+  position: relative;
 }
 
 .features-icon {
@@ -158,4 +160,19 @@ p {
 .footer-icon {
   padding: 0 10px;
   margin: 20px 10px;
+}
+
+
+/*media query*/
+
+@media (max-width : 1028px){
+!important
+  .title-seaction{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
 }
